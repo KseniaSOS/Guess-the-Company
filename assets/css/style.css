@@ -22,3 +22,26 @@ h1 {
     font-size: 100px;
     text-shadow: -7px 0px 8px #F08784, 8px 0px 7px #e7e7e7;
 }
+
+nav {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    width: 85px;
+    background-color: #F08784;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 35px;
+    margin: 10px 50px 30px 30px;
+    font-weight: 650;
+    text-decoration: none;
+    border-radius: 15px;
+    color: #474749;
+    text-align: center;
+}
+
