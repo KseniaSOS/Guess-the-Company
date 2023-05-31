@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none; 
-    background-color: aqua;
+}
+
+body {
+    background-image: url(../images/body-image.jpg);
+    background-size: cover;
+    background-position: center center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Quattrocento', serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 100px;
+    text-shadow: -7px 0px 8px #F08784, 8px 0px 7px #e7e7e7;
 }
