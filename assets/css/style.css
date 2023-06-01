@@ -45,6 +45,13 @@ nav {
     text-align: center;
 }
 
+#page {
+    background-color: #474749;
+    border: 1.5px solid #F08784;
+    color: #FFFFFF;
+}
+
+
 /* game area */
 
 #container {
