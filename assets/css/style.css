@@ -15,7 +15,7 @@ body {
     margin: 0;
     font-family: 'Quattrocento', serif;
 }
-
+/* header */
 h1 {
     text-align: center;
     margin: 30px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 nav {
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     margin: 0 10px;
     display: flex;
@@ -35,13 +35,46 @@ nav {
     width: 85px;
     background-color: #F08784;
     border-radius: 10px;
-    padding: 20px 20px;
-    font-size: 35px;
+    padding: 20px;
+    font-size: 30px;
     margin: 10px 50px 30px 30px;
     font-weight: 650;
     text-decoration: none;
     border-radius: 15px;
     color: #474749;
     text-align: center;
+}
+
+/* game area */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#quiz-box {
+    background-color: #FFFFFF;
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: inset 0px 1px 11px 4px #F08784, 8px 0px 7px #e7e7e7;
+    border: 1.5px solid #474749;
+    border-radius: 35px;
+}
+
+#grey-btn {
+    display: block;
+    background-color: #474749;
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 20px auto 0;   
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
