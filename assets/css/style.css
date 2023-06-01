@@ -37,7 +37,7 @@ nav {
     border-radius: 10px;
     padding: 20px;
     font-size: 30px;
-    margin: 10px 50px 30px 30px;
+    margin: 20px;
     font-weight: 650;
     text-decoration: none;
     border-radius: 15px;
@@ -72,6 +72,19 @@ nav {
     box-shadow: inset 0px 1px 11px 4px #F08784, 8px 0px 7px #e7e7e7;
     border: 1.5px solid #474749;
     border-radius: 35px;
+}
+
+.text {
+    width: 90%;
+   text-align: center;
+
+}
+
+.questions {
+    height: 280px;
+    border-radius: 35px;
+    padding: 30px;
+    width: 90%;
 }
 
 #grey-btn {
