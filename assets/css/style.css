@@ -78,3 +78,11 @@ nav {
     font-weight: 400;
 }
 
+/* footer */
+
+.copyright {
+    font-size: small;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #FFFFFF;
+}
