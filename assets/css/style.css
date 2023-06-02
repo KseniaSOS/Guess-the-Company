@@ -62,18 +62,6 @@ nav {
     margin: 10px;
 }
 
-/* #quiz-box {
-    background-color: #FFFFFF;
-    height: auto;
-    width: 90%;
-    max-width: 500px;
-    padding: 30px;
-    margin: 10px;
-    box-shadow: inset 0px 1px 11px 4px #F08784, 8px 0px 7px #e7e7e7;
-    border: 1.5px solid #474749;
-    border-radius: 35px;
-} */
-
 #quiz-box {
     background-color: #FFFFFF;
     width: 500px;
@@ -121,3 +109,23 @@ nav {
     padding-bottom: 25px;
     color: #FFFFFF;
 }
+
+/* media queries */
+
+@media screen and (max-width:950px) {
+   h1 {
+    font-size: 70px;
+   }
+}
+
+@media screen and (max-width:650px) {
+    #quiz-box {
+        width: auto;
+    }
+
+    .menu a {
+        margin: 15px;
+        padding: 15px;
+    }
+}
+
