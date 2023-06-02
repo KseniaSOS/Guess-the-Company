@@ -19,7 +19,7 @@ body {
 h1 {
     text-align: center;
     margin: 30px;
-    font-size: 100px;
+    font-size: 80px;
     text-shadow: -7px 0px 8px #F08784, 8px 0px 7px #e7e7e7;
 }
 
@@ -36,7 +36,7 @@ nav {
     background-color: #F08784;
     border-radius: 10px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     margin: 20px;
     font-weight: 650;
     text-decoration: none;
@@ -62,7 +62,7 @@ nav {
     margin: 10px;
 }
 
-#quiz-box {
+/* #quiz-box {
     background-color: #FFFFFF;
     height: auto;
     width: 90%;
@@ -72,18 +72,33 @@ nav {
     box-shadow: inset 0px 1px 11px 4px #F08784, 8px 0px 7px #e7e7e7;
     border: 1.5px solid #474749;
     border-radius: 35px;
+} */
+
+#quiz-box {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: auto;
+    margin: 25px;
+    border-radius: 35px;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 1px 10px 7px #f08784;
+    border: 0.5px solid #7F7F7F;
 }
 
 .text {
-    width: 90%;
+   width: 90%;
    text-align: center;
-
+   margin: 20px;
+   font-size: 25px;
 }
 
 .questions {
     height: 280px;
     border-radius: 35px;
-    padding: 30px;
+    border: 1px solid #7F7F7F;
+    margin: 20px;
     width: 90%;
 }
 
