@@ -110,6 +110,15 @@ nav {
     color: #FFFFFF;
 }
 
+/* game page */
+
+#info-box {
+    justify-content: space-between;
+    display: flex;
+    margin: auto 50px;
+    padding: 15px;
+}
+
 /* media queries */
 
 @media screen and (max-width:950px) {
