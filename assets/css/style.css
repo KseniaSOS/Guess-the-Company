@@ -92,13 +92,14 @@ nav {
 
 .grey-btn {
     display: block;
-    background-color: #474749;
-    color: #FFFFFF;
+    background-color: #474749;    
     padding: 20px;
     margin: 20px auto 10px;   
-    border-radius: 15px;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
+    border: 2px solid #7F7F7F;
+    border-radius: 15px;
 }
 
 /* footer */
@@ -148,9 +149,12 @@ nav {
 }
 
 .btn:hover {
-    
     border-color: #F08784;
 }  
+
+.grey-btn:hover {
+    border-color: #F08784;
+}
 /* media queries */
 
 @media screen and (max-width:950px) {
