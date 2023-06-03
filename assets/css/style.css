@@ -47,7 +47,7 @@ nav {
 
 #page {
     background-color: #474749;
-    border: 1.5px solid #F08784;
+    border: 2px solid #F08784;
     color: #FFFFFF;
 }
 
@@ -82,15 +82,15 @@ nav {
    font-size: 25px;
 }
 
-.questions {
+.questions-img {
     height: 280px;
     border-radius: 35px;
-    border: 1px solid #7F7F7F;
+    border: 2px solid #7F7F7F;
     margin: 20px;
     width: 90%;
 }
 
-#grey-btn {
+.grey-btn {
     display: block;
     background-color: #474749;
     color: #FFFFFF;
@@ -117,8 +117,40 @@ nav {
     display: flex;
     margin: auto 50px;
     padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    font-size: 28px;
 }
 
+#question {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.flex-btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    
+}  
+
+.btn {
+    background-color: #7F7F7F;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    border: 2px solid #474749;
+}
+
+.btn:hover {
+    
+    border-color: #F08784;
+}  
 /* media queries */
 
 @media screen and (max-width:950px) {
@@ -138,3 +170,8 @@ nav {
     }
 }
 
+ /* @media screen and (max-width:487px) {
+  
+
+    
+}  */
