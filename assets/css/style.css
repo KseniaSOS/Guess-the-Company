@@ -141,7 +141,7 @@ nav {
 .btn {
     background-color: #7F7F7F;
     padding: 20px;
-    margin: 10px 0;
+    margin: 10px 20px;
     border-radius: 15px;
     font-size: 20px;
     font-weight: 400;
@@ -155,6 +155,14 @@ nav {
 
 .grey-btn:hover {
     border-color: #F08784;
+}
+
+.correct {
+    background: #129624;
+}
+
+.incorrect {
+    background: #da1515;
 }
 /* media queries */
 

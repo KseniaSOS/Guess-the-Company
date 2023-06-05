@@ -1,3 +1,4 @@
+/** All questions of the game */
 const questions = [
     {
         question: "Just Do It",
@@ -249,4 +250,4 @@ const questions = [
         ]
     
     },
-]
+];
