@@ -10,38 +10,38 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
-const questions = [
-    {
-        question: "Just Do It",
-        answers: [
-            {text : "Puma", correct: false},
-            {text : "Adidas", correct: false},
-            {text : "Nike", correct: true},
-            {text : "NB", correct: false},
-        ]
-    },
-    {
-        question: "Believe In Your Smell",
-        answers: [
-            {text : "Rexona", correct: false},
-            {text : "Old Spice", correct: true},
-            {text : "Degree", correct: false},
-            {text : "Mitchum", correct: false},
-        ]
+// const questions = [
+//     {
+//         question: "Just Do It",
+//         answers: [
+//             {text : "Puma", correct: false},
+//             {text : "Adidas", correct: false},
+//             {text : "Nike", correct: true},
+//             {text : "NB", correct: false},
+//         ]
+//     },
+//     {
+//         question: "Believe In Your Smell",
+//         answers: [
+//             {text : "Rexona", correct: false},
+//             {text : "Old Spice", correct: true},
+//             {text : "Degree", correct: false},
+//             {text : "Mitchum", correct: false},
+//         ]
     
-    },
-    {
-        question: "The taste of a new generation",
-        answers: [
-            {text : "Fanta", correct: false},
-            {text : "Coca Cola", correct: false},            
-            {text : "Sprite", correct: false},
-            {text : "Pepsi", correct: true},
-        ]
+//     },
+//     {
+//         question: "The taste of a new generation",
+//         answers: [
+//             {text : "Fanta", correct: false},
+//             {text : "Coca Cola", correct: false},            
+//             {text : "Sprite", correct: false},
+//             {text : "Pepsi", correct: true},
+//         ]
     
-    }
+//     }
     
-    ];
+//     ];
 
 
 /** Starts the game*/
