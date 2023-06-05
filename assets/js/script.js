@@ -52,8 +52,8 @@ function startGame(){
     showQuestion();
 }
 
-//the code was takesn from youtube channel: https://shorturl.at/hrIV9
-/** Shows questions and answers from the question list. Add event listeners to answersbuttons */
+//the code was taken from youtube channel: https://shorturl.at/hrIV9
+/** Shows questions and answers from the question list. Add event listeners to answers buttons */
 function showQuestion(){
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
