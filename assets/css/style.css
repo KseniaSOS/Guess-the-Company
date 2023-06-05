@@ -96,10 +96,11 @@ nav {
     padding: 20px;
     margin: 20px auto 10px;   
     color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 650;
     border: 2px solid #7F7F7F;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 /* footer */
