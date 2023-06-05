@@ -67,20 +67,24 @@ function showQuestion(){
         button.classList.add("btn");
         answerButtons.appendChild(button);
 
-        if(answer.correct)
-        button.dataset.correct = answer.correct;
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
         button.addEventListener("click", checkAnswer);
         });
 }
 
 /** Reset the privious questions */
 function resetState() {
+        nextButton.style.display = "none";
         while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-/** Checks the answer from the questions list and changes the color(with css) */
+/** Checks the answer from the questions list and changes the color(with css).
+ * Array.from wilck check the data set and changes the button color depend on anwser
+*/
 function checkAnswer(e) {
     const selectedBtn = e.target;
     const answerCorrect =  selectedBtn.dataset.correct === "true";
@@ -89,6 +93,15 @@ function checkAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block";
+    
+
 }
 
 startGame();

@@ -149,6 +149,10 @@ nav {
     border: 2px solid #474749;
 }
 
+#next-btn{
+    display: none;
+}
+
 .btn:hover {
     border-color: #F08784;
 }  
@@ -157,6 +161,7 @@ nav {
     border-color: #F08784;
 }
 
+/* changes button color, depend on answer */
 .correct {
     background: #129624;
 }
@@ -164,6 +169,7 @@ nav {
 .incorrect {
     background: #da1515;
 }
+
 /* media queries */
 
 @media screen and (max-width:950px) {
