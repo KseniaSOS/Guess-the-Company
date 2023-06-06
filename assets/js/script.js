@@ -42,15 +42,15 @@ function showQuestion(){
 }
 
 /** Reset the privious questions */
-function resetState() {
-        nextButton.style.display = "none";
+function resetState() {        
+        
         while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
 /** Checks the answer from the questions list and changes the color(with css).
- * Array.from wilck check the data set and changes the button color depend on anwser
+ * Array.from will check the data set and changes the button color depend on anwser
 */
 function checkAnswer(e) {
     const selectedBtn = e.target;
@@ -66,7 +66,7 @@ function checkAnswer(e) {
         }
         button.disabled = true;
     });
-    nextButton.style.display = "block";
+    
     
 
 }
