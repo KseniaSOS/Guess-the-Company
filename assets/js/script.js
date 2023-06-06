@@ -8,8 +8,10 @@ const nextButton = document.getElementById("next-btn");
 let score = document.getElementById("score");
 
 
+
 let currentQuestionIndex = 0;
 score = 0;
+
 
 
 /** Starts the game*/
@@ -70,7 +72,9 @@ function checkAnswer(e) {
             button.classList.add("correct");
         }
         button.disabled = true;
-    });   
+    }); 
+    
+    
     
 }
 
