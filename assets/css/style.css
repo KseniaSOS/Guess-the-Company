@@ -151,13 +151,15 @@ nav {
     
 }
 
-/* #next-btn{
-    display: none;
-} */
-
-.btn:hover {
+/* hide hover effect wenn select the question button */
+.btn:hover:not([disabled]) {
     border-color: #F08784;
-}  
+} 
+
+btn:disabled {
+    cursor: no-drop;
+}
+
 
 .grey-btn:hover {
     border-color: #F08784;
