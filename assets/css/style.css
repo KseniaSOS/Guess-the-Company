@@ -139,7 +139,7 @@ nav {
 }  
 
 .btn {
-    background-color: #7F7F7F;
+    background-color: #c7c2c2;
     padding: 20px;
     margin: 10px 20px;
     border-radius: 15px;
@@ -147,6 +147,8 @@ nav {
     font-weight: 400;
     text-align: left;
     border: 2px solid #474749;
+    width: 100%;
+    
 }
 
 #next-btn{
