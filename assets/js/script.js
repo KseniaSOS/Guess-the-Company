@@ -5,10 +5,11 @@ document.addEventListener("DOMContentLoaded", startGame);
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+let score = document.getElementById("score");
 
 
 let currentQuestionIndex = 0;
-let score = 0;
+score = 0;
 
 
 /** Starts the game*/
@@ -60,6 +61,7 @@ function checkAnswer(e) {
     if(answerCorrect) {
         selectedBtn.classList.add("correct");
         score++;
+        incrementScore();
     } else {
         selectedBtn.classList.add("incorrect");
     }
@@ -72,11 +74,21 @@ function checkAnswer(e) {
     
 }
 
+
 /** displays the score  at the and of questions*/
 function showScore(){
     resetState();
     questionElement.innerHTML = `WELL DONE! You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
+}
+
+// code from the Love Math project//
+ /**Gets the current score from the DOM and increments it by 1
+ */
+function incrementScore() {
+
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
 }
 
 
