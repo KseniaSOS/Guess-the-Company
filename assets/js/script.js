@@ -50,13 +50,15 @@ function resetState() {
 }
 
 /** Checks the answer from the questions list and changes the color(with css).
- * Array.from will check the data set and changes the button color depend on anwser
+ * Array.from will check the data set and changes the button color depend on anwser.
+ * Calculates the score if correct.
 */
 function checkAnswer(e) {
     const selectedBtn = e.target;
     const answerCorrect =  selectedBtn.dataset.correct === "true";
     if(answerCorrect) {
         selectedBtn.classList.add("correct");
+        score++;
     } else {
         selectedBtn.classList.add("incorrect");
     }
@@ -65,10 +67,36 @@ function checkAnswer(e) {
             button.classList.add("correct");
         }
         button.disabled = true;
-    });
+    });   
     
-    
-
 }
+
+/** displays the score  at the and of questions*/
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `WELL DONE! You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+}
+
+
+/** displays questions one by one, if there is no more, it will display the score*/
+function handleNextButton(){
+   currentQuestionIndex++;
+   if(currentQuestionIndex < questions.length){
+    showQuestion();
+   }else{
+    showScore();
+   }
+}
+
+/** Add event listeners to next button. Checks if all questions are displayed, than restart a new game  */
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    } else{
+        startGame();
+    }
+})
+
 
 startGame();
