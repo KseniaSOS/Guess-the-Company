@@ -20,10 +20,10 @@ function startGame(){
 }
 
 //the code was taken from youtube channel: https://shorturl.at/hrIV9
-/** Shows questions and answers from the question list. Add event listeners to answers buttons */
+/** Shows random questions with answers from the question list. Add event listeners to answers buttons */
 function showQuestion(){
     resetState();
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = questions[Math.floor(Math.random() * questions.length)];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
@@ -40,6 +40,13 @@ function showQuestion(){
         button.addEventListener("click", checkAnswer);
         });
 }
+
+// let randomQuestion;
+
+// function getQuestion(questions) {
+//     randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+//     return randomQuestion;
+// }
 
 /** Reset the privious questions */
 function resetState() {        
