@@ -100,6 +100,8 @@ function handleNextButton(){
    }else{
     showScore();
    }
+
+   
 }
 
 /** Add event listeners to next button. Checks if all questions are displayed, than restart a new game  */
