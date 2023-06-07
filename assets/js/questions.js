@@ -1,7 +1,7 @@
 /** All questions of the game */
 const questions = [
     {
-        question: "Just Do It",
+        question: "Just Do It.",
         answers: [
             {text : "Puma", correct: false},
             {text : "Adidas", correct: false},
@@ -11,7 +11,7 @@ const questions = [
     
     },
     {
-        question: "Believe In Your Smell",
+        question: "Believe In Your Smell.",
         answers: [
             {text : "Rexona", correct: false},
             {text : "Old Spice", correct: true},
@@ -21,7 +21,7 @@ const questions = [
     
     },
     {
-        question: "The taste of a new generation",
+        question: "The taste of a new generation.",
         answers: [
             {text : "Fanta", correct: false},
             {text : "Coca-Cola", correct: false},            
@@ -31,7 +31,7 @@ const questions = [
     
     },
     {
-        question: "A Passion For the Road",
+        question: "A Passion For the Road.",
         answers: [
             {text : "Ford", correct: false},
             {text : "Opel", correct: false},
@@ -41,7 +41,7 @@ const questions = [
     
     },
     {
-        question: "Eat fresh",
+        question: "Eat fresh.",
         answers: [
             {text : "Subway", correct: true},
             {text : "McDonald's", correct: false},
@@ -91,7 +91,7 @@ const questions = [
     
     },
     {
-        question: "Bbecause you’re worth it.",
+        question: "Because you’re worth it.",
         answers: [
             {text : "Estee Lauder", correct: false},
             {text : "Maybelline", correct: false},            
@@ -101,7 +101,7 @@ const questions = [
     
     },
     {
-        question: "The ultimate driving machine",
+        question: "The ultimate driving machine.",
         answers: [
             {text : "Audi", correct: false},
             {text : "Honda", correct: false},
@@ -121,7 +121,7 @@ const questions = [
     
     },
     {
-        question: "Let’s go places",
+        question: "Let’s go places.",
         answers: [
             {text : "Acura", correct: false},
             {text : "Toyota", correct: true},
@@ -131,7 +131,7 @@ const questions = [
     
     },
     {
-        question: "Betcha can’t eat just one",
+        question: "Betcha can’t eat just one.",
         answers: [
             {text : "Lay's", correct: true},
             {text : "Cheetos", correct: false},
@@ -141,7 +141,7 @@ const questions = [
     
     },
     {
-        question: "All the news that’s fit to print",
+        question: "All the news that’s fit to print.",
         answers: [
             {text : "USA Today", correct: false},
             {text : "The Wall Street Journal", correct: false},
@@ -151,7 +151,7 @@ const questions = [
     
     },
     {
-        question: "Imagination at work",
+        question: "Imagination at work.",
         answers: [
             {text : "Apple", correct: false},
             {text : "Disney Studios", correct: false},            
@@ -161,7 +161,7 @@ const questions = [
     
     },
     {
-        question: "Impossible is nothing",
+        question: "Impossible is nothing.",
         answers: [
             {text : "Puma", correct: false},
             {text : "Nike", correct: false},
@@ -171,7 +171,7 @@ const questions = [
     
     },
     {
-        question: "The best a man can get",
+        question: "The best a man can get.",
         answers: [
             {text : "Braun", correct: false},
             {text : "Gilette", correct: true},
@@ -191,7 +191,7 @@ const questions = [
     
     },
     {
-        question: "Taste the Rainbow",
+        question: "Taste the Rainbow.",
         answers: [
             {text : "Chupa Chups", correct: false},
             {text : "M&M", correct: false},
@@ -201,7 +201,7 @@ const questions = [
     
     },
     {
-        question: "The taste of paradise",
+        question: "The taste of paradise.",
         answers: [
             {text : "Bounty", correct: true},
             {text : "Snickers", correct: false},
@@ -211,7 +211,7 @@ const questions = [
     
     },
     {
-        question: "Probably the best beer in the world",
+        question: "Probably the best beer in the world.",
         answers: [
             {text : "Guinness", correct: false},
             {text : "Corona", correct: false},
@@ -271,7 +271,7 @@ const questions = [
     
     },
     {
-        question: "Connecting People",
+        question: "Connecting People.",
         answers: [
             {text : "Nokia", correct: true},
             {text : "Motorola", correct: false},
@@ -281,7 +281,7 @@ const questions = [
     
     },
     {
-        question: "Spend a little, live a lot",
+        question: "Spend a little, live a lot.",
         answers: [
             {text : "Aldi", correct: true},
             {text : "Penny", correct: false},
@@ -291,7 +291,7 @@ const questions = [
     
     },
     {
-        question: "Insurance solutions from A to Z",
+        question: "Insurance solutions from A to Z.",
         answers: [            
             {text : "Generali", correct: false},
             {text : "CNA", correct: false},  
