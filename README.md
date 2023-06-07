@@ -174,7 +174,9 @@ The method for cloning a project from GitHub is described below:
 
 * ## Media
 
-    * Favicon - [Favicon Generator](https://favicon.io/favicon-converter/).
+    * Favicon - [Favicon Generator](https://favicon.io/favicon-converter/)
+    * Images were compressed using [Tynypng](https://tinypng.com/)
+
 
 [Back to top](<#contents>)
 # Acknowledgements
