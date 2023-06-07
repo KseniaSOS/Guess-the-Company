@@ -6,6 +6,7 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const playAgainButton = document.getElementById("play-again-btn");
+const numGameQuestions = 10;
 
 /** Variables */
 let score = document.getElementById("score");
@@ -33,7 +34,9 @@ function startGame(){
     setScore(score);
     // randomly shuffle the questions array
     shuffledQuestions = shuffle(questions);
-    showQuestion(currentQuestionIndex); 
+    shuffledQuestions = shuffledQuestions.slice(0, numGameQuestions);
+    showQuestion(currentQuestionIndex);
+    currentQuestionIndex++; 
     nextButton.style.display = "none";
     playAgainButton.style.display = "none";
 }
@@ -46,6 +49,7 @@ function showQuestion(questionIndex){
     let questionNo = questionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
+    setQuestionIdx(questionIndex)
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -97,7 +101,7 @@ function checkAnswer(e) {
 /** displays the score when all questions were processed*/
 function showScore(){
     resetState();
-    questionElement.innerHTML = `WELL DONE! You scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `WELL DONE! You scored ${score} out of ${numGameQuestions}!`;
     nextButton.style.display = "none";
     playAgainButton.style.display = "block";
 }
@@ -108,22 +112,20 @@ function setScore(inputScore) {
     document.getElementById("score").innerText = inputScore;
 }
 
+ /** set the current question index in the DOM */
+ function setQuestionIdx(idx) {
+    document.getElementById("question-num").innerText = `${idx + 1}/${numGameQuestions}`;
+}
+
 
 /** Add event listeners to next button. Checks if all questions are displayed, than restart a new game  */
 nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < questions.length){
+    if(currentQuestionIndex < numGameQuestions){
         showQuestion(currentQuestionIndex);
         currentQuestionIndex++;
         // handleNextButton();
     } else{
-        if (currentQuestionIndex == questions.length)
-        {
-            showScore();
-        }
-        else
-        {
-            startGame();
-        }
+        showScore();
     }
 })
 
