@@ -12,7 +12,7 @@ let score = document.getElementById("score");
 let currentQuestionIndex = 0;
 let shuffledQuestions;
 
-
+/** shuffle array based on the Fisher-Yates algorithm */
 function shuffle(array) {
     let shuffledArray = array
     for (let i = shuffledArray.length - 1; i > 0; i--) 
@@ -80,7 +80,6 @@ function checkAnswer(e) {
         selectedBtn.classList.add("correct");
         score++;
         setScore(score);
-        // incrementScore();
     } else {
         selectedBtn.classList.add("incorrect");
     }
@@ -94,12 +93,6 @@ function checkAnswer(e) {
            
 }
 
-// find solution
-
-
-
-
-// //////
 
 /** displays the score when all questions were processed*/
 function showScore(){
@@ -115,8 +108,6 @@ function setScore(inputScore) {
     document.getElementById("score").innerText = inputScore;
 }
 
-   
-// }
 
 /** Add event listeners to next button. Checks if all questions are displayed, than restart a new game  */
 nextButton.addEventListener("click", ()=>{
