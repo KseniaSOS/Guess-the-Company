@@ -1,7 +1,7 @@
 # *Guess The Company*
 Guess the Company is a basic multiple choice Quiz. It is aimed at user who want a bit of fun and want to test their knowledge if they can identifying a brand by its slogan. User will find 30 questions.
 
-Visit the live website [*HERE*](https://kseniasos.github.io/Guess-the-Company/index.html)
+Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
 
 
 ![Responsive design image](assets/readme-images/responsive-design.png)
@@ -47,7 +47,8 @@ Guess the Company is designed to be simple to use. The site consists of 3 main p
 * ### Typography
     * The main font is 'Quattrocento'. It is a fairly simple and clear font.
 * ### Colour Scheme
-    *  Pastel colors were chosen for the color palette, against the darkened background image, they do not irritate or distract from the game itself.
+    *  Pastel colors were chosen for the color palette, against the darkened background image, they do not irritate or distract from the game itself. 
+    *  Red and green colors was used to visually highlight correct and incorrect answers.
 
 The following colors were used on the website:
 
@@ -112,13 +113,15 @@ The site was deployed for GitHub pages. The steps to deploy this site are as fol
 
 ![GitHub pages deployed image](assets/readme-images/deployment.png)
 
-  The live link to the Github repository can be found here -  <https://kseniasos.github.io/Guess-the-Company/index.html>
+  The live link to the Github repository can be found here - <https://github.com/KseniaSOS/Guess-the-Company>
+
+>
 
 ### **Forking the repository on GitHub**
 
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
 
-1. Log in to **GitHub** and locate the [repository](https://kseniasos.github.io/Guess-the-Company/index.html).
+1. Log in to **GitHub** and locate the [repository](https://github.com/KseniaSOS/Guess-the-Company).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
 ![GitHub forking process image](assets/readme-images/forking.png)
@@ -141,7 +144,7 @@ The method for cloning a project from GitHub is described below:
 
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
 
-1. Log in to **GitHub** and locate the [repository](https://kseniasos.github.io/Guess-the-Company/index.html).
+1. Log in to **GitHub** and locate the [repository](https://github.com/KseniaSOS/Guess-the-Company).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
 ![GitHub forking process image](assets/readme-images/forking.png)
