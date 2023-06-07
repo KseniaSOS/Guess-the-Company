@@ -1,108 +1,182 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# *Guess The Company*
+Guess the Company is a basic multiple choice Quiz. It is aimed at user who want a bit of fun and want to test their knowledge if they can identifying a brand by its slogan. User will find 30 questions.
 
-Welcome Ksenia Sossin,
+Visit the live website [*HERE*](https://kseniasos.github.io/Guess-the-Company/index.html)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive design image](assets/readme-images/responsive-design.png)
 
-## Gitpod Reminders
+# Contents
+* [**User Experience UX**](<#user-experience-ux>)    
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+        *  [Typography](<#typography>)
+        *  [Colour Scheme](<#colour-scheme>)
+* [**Features**](<#features>)
+    * [**Existing Features**](<#existing-features>)
+        * [Home Page](<#home-page>)
+        * [Rules](<#rules>)
+        * [Score](<#score>)        
+        * [The Game](<#the-game>)        
+    * [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgements**](<#acknowledgements>)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# User Experience (UX)
+## Wireframes
+The wireframes were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display, tablets and a small mobile device.
 
-`python3 -m http.server`
+![Desktop wireframe image](assets/readme-images/wireframes_desktop.png)
 
-A blue button should appear to click: _Make Public_,
+![Tablet wireframe image](assets/readme-images/wireframes_tablet.png)
 
-Another blue button should appear to click: _Open Browser_.
+![Mobile wireframe image](assets/readme-images/wireframes_mobile.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[Back to top](<#contents>)
+## Site Structure
+Guess the Company is designed to be simple to use. The site consists of 3 main pages: [Home page](index.html), [Rules](rules.html) and [Game](game.html). All pages of the website have the same body layout: Header and Footer.
 
-A blue button should appear to click: _Make Public_,
+[Back to top](<#contents>)
+## Design Choices
+* ### Typography
+    * The main font is 'Quattrocento'. It is a fairly simple and clear font.
+* ### Colour Scheme
+    *  Pastel colors were chosen for the color palette, against the darkened background image, they do not irritate or distract from the game itself.
 
-Another blue button should appear to click: _Open Browser_.
+The following colors were used on the website:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Colour Palate image](assets/readme-images/colors.png)
 
-To log into the Heroku toolbelt CLI:
+[Back to top](<#contents>)
+# Features
+## Existing Features
+* ### Home 
+    * Navigation Menu
+    ![Home Page](assets/readme-images/home-page.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Back to top](<#contents>)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* ### Rules
+    * How to PLay
+    ![Home Page](assets/readme-images/rules.png)
 
-------
+[Back to top](<#contents>)
 
-## Release History
+* ### Score
+    * The score panel
+    ![Home Page](assets/readme-images/score.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[Back to top](<#contents>)
+  
+* ### The Game
+    * The game 
+    ![The Game](assets/readme-images/game-page.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Back to top](<#contents>)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Future Features
+* 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+[Back to top](<#contents>)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Technologies Used
+* [HTML5](https://html.spec.whatwg.org/) 
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+* [Balsamiq](https://balsamiq.com/wireframes/) 
+* [Gitpod](https://www.gitpod.io/#get-started) 
+* [Github](https://github.com/) 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+[Back to top](<#contents>)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# Deployment
+### **To deploy the project**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The site was deployed for GitHub pages. The steps to deploy this site are as follows:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  1. In the GitHub repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+  3. Under **Source**, select the branch to **main**, then click **save**.
+  4. Once the main branch has been selected, the page will automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![GitHub pages deployed image](assets/readme-images/deployment.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  The live link to the Github repository can be found here -  <https://kseniasos.github.io/Guess-the-Company/index.html>
 
-------
+### **Forking the repository on GitHub**
 
-## FAQ about the uptime script
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
 
-**Why have you added this script?**
+1. Log in to **GitHub** and locate the [repository](https://kseniasos.github.io/Guess-the-Company/index.html).
+2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![GitHub forking process image](assets/readme-images/forking.png)
 
-**How will this affect me?**
+### **Creating a local clone of this project**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The method for cloning a project from GitHub is described below:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+   
+![Cloning the image](assets/readme-images/local-clone.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+1. In your IDE of choice, open **Git Bash**.
+2. Change the current working directory to the location where you want the cloned directory to be created.
+3. Type **git clone**, and then paste the URL copied from GitHub.
+4. Press **enter** and the local clone will be created.
 
-**So….?**
+### **Forking the repository on GitHub**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
 
-**Can I opt out?**
+1. Log in to **GitHub** and locate the [repository](https://kseniasos.github.io/Guess-the-Company/index.html).
+2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![GitHub forking process image](assets/readme-images/forking.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### **Creating a local clone of this project**
 
-**Anything more?**
+The method for cloning a project from GitHub is described below:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+   
+![Cloning the image](assets/readme-images/local-clone.png)
 
----
+1. In your IDE of choice, open **Git Bash**.
+2. Change the current working directory to the location where you want the cloned directory to be created.
+3. Type **git clone**, and then paste the URL copied from GitHub.
+4. Press **enter** and the local clone will be created.
 
-Happy coding!
+
+[Back to top](<#contents>)
+# Credits
+* ## Content
+   * Font - [Google Fonts](https://fonts.google.com/specimen/Quattrocento)
+   * Code - [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1779s)
+   * Code - [YouTube tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1356s)
+   * Code - [Love Math](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
+   * Wireframes - [Balsamiq](https://balsamiq.com/wireframes/) 
+   * Images - [Pikwizard](https://pikwizard.com/)
+   * Images - [Pexels](https://www.pexels.com/)
+
+* ## Media
+
+    * Favicon - [Favicon Generator](https://favicon.io/favicon-converter/).
+
+[Back to top](<#contents>)
+# Acknowledgements
+
+[Back to top](<#contents>)
