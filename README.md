@@ -63,14 +63,15 @@ The following colors were used on the website:
 
 * Navigation Menu
 
-  ![Home Page](assets/readme-images/homepage.png)    
+![Home Page](assets/readme-images/homepage.png)    
 
 [Back to top](<#contents>)
 
 ### Rules Page
 
 * How to PLay
-    ![Rules Page](assets/readme-images/rules.png)
+
+![Rules Page](assets/readme-images/rules.png)
 
 [Back to top](<#contents>)
   
@@ -78,11 +79,11 @@ The following colors were used on the website:
 
 * The game 
 
-    ![Game Page](assets/readme-images/game-page.png)
+![Game Page](assets/readme-images/game-page.png)
 
-    ![Answers](assets/readme-images/correct-incorrect-answer.png)
+![Answers](assets/readme-images/correct-incorrect-answer.png)
 
-    ![Score and Play Again](assets/readme-images/score-play-again.png)
+![Score and Play Again](assets/readme-images/score-play-again.png)
 
 [Back to top](<#contents>)
 
@@ -131,7 +132,21 @@ The CSS validator results are below:
 
 ## Browser Compatibility
 
-The Quiz Guess the Company can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
+The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
+
+## Responsiveness Test
+
+* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | iPad Pro | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|----------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+
+## Browser Compatibility
+
+The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
 
 ## Known Bugs
 
