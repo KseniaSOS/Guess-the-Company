@@ -15,10 +15,9 @@ Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
         *  [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
     * [**Existing Features**](<#existing-features>)
-        * [Home Page](<#home-page>)
-        * [Rules](<#rules>)
-        * [Score](<#score>)        
-        * [The Game](<#the-game>)        
+        * [Homepage](<#homepage>)
+        * [Rules Page](<#rules-page>)              
+        * [Game Page](<#game-page>)        
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -40,7 +39,7 @@ The wireframes were produced in [Balsamiq](https://balsamiq.com). There are fram
 
 [Back to top](<#contents>)
 ## Site Structure
-Guess the Company is designed to be simple to use. The site consists of 3 main pages: [Home page](index.html), [Rules](rules.html) and [Game](game.html). All pages of the website have the same body layout: Header and Footer.
+Guess the Company is designed to be simple to use. The site consists of 3 main pages: [Homepage](index.html), [Rules Page](rules.html) and [Game Page](game.html). All pages of the website have the same body layout: Header and Footer.
 
 [Back to top](<#contents>)
 ## Design Choices
@@ -57,27 +56,21 @@ The following colors were used on the website:
 [Back to top](<#contents>)
 # Features
 ## Existing Features
-* ### Home 
+* ### Homepage
     * Navigation Menu
     ![Home Page](assets/readme-images/home-page.png)
 
 [Back to top](<#contents>)
 
-* ### Rules
+* ### Rules Page
     * How to PLay
-    ![Home Page](assets/readme-images/rules.png)
-
-[Back to top](<#contents>)
-
-* ### Score
-    * The score panel
-    ![Home Page](assets/readme-images/score.png)
+    ![Rules Page](assets/readme-images/rules.png)
 
 [Back to top](<#contents>)
   
-* ### The Game
+* ### Game Page
     * The game 
-    ![The Game](assets/readme-images/game-page.png)
+    ![Game Page](assets/readme-images/game-page.png)
 
 [Back to top](<#contents>)
 
@@ -97,7 +90,27 @@ The following colors were used on the website:
 [Back to top](<#contents>)
 
 # Testing
+The Quiz Guess the Company has been throughly tested. All HTML pages have been run through the [W3C html Validator](https://validator.w3.org/) and the CSS throught the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found, after fixing and retesting, no more errors found.
 
+The HTML validator results for each page are below:
+
+* Homepage 
+
+![W3C Validator test result](assets/readme-images/w3-no-errors.png)
+
+* Rules Page
+
+![W3C Validator test result](assets/readme-images/w3-no-errors.png)
+
+* The Game Page
+
+![W3C Validator test result](assets/readme-images/w3-no-errors.png)
+
+The CSS validator results are below:
+
+![CSS Validator test result](assets/readme-images/css-w3.png)
+
+[Back to top](<#contents>)
 
 
 
