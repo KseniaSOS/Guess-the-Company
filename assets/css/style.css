@@ -116,11 +116,12 @@ nav {
 #info-box {
     justify-content: space-between;
     display: flex;
-    margin: auto 50px;
+    margin: auto 30px;
     padding: 15px;
     font-weight: bold;
     font-size: large;
     font-size: 28px;
+    gap: 15px;
 }
 
 #question {
