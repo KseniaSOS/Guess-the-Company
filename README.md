@@ -7,7 +7,8 @@ Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
 ![Responsive design image](assets/readme-images/responsive-design.png)
 
 # Contents
-* [**User Experience UX**](<#user-experience-ux>)    
+* [**User Experience UX**](<#user-experience-ux>)   
+    * [User Stories](<#user-stories>) 
     * [Wireframes](<#wireframes>)
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
@@ -28,6 +29,14 @@ Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
 *  [**Acknowledgements**](<#acknowledgements>)
 
 # User Experience (UX)
+## Testing User Stories
+* As a user I want to know the rules.    
+* As a user I want to know my score.     
+* As a user I want to know how many questions left.       
+* As a user I want to reset the game if I want another attempt.
+   
+[Back to top](<#contents>)
+
 ## Wireframes
 The wireframes were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display, tablets and a small mobile device.
 
@@ -40,7 +49,11 @@ The wireframes were produced in [Balsamiq](https://balsamiq.com). There are fram
 [Back to top](<#contents>)
 
 ## Site Structure
-Guess the Company is designed to be simple to use. The site consists of 3 main pages: [Homepage](index.html), [Rules Page](rules.html) and [Game Page](game.html). All pages of the website have the same body layout: Header and Footer.
+Guess the Company is designed to be simple to use. The site consists of 3 main pages: [Homepage](index.html), [Rules Page](rules.html) and [Game Page](game.html). 
+There is a small game area on the pages including:
+* Title 
+* Navigation bar 
+* Game section 
 
 [Back to top](<#contents>)
 
@@ -61,7 +74,7 @@ The following colors were used on the website:
 ## Existing Features
 ### Homepage
 
-* Navigation Menu
+* The home page has a simple and useble design. The users can see the introduction text with an image. From here they can use the navigation links at the top of the page to read the rules or to go straight to the game.
 
 ![Home Page](assets/readme-images/homepage.png)    
 
@@ -69,7 +82,7 @@ The following colors were used on the website:
 
 ### Rules Page
 
-* How to PLay
+* This page explains the rules of the game. There is a big "Play" button, which the users can click on to take them into the gameplay.
 
 ![Rules Page](assets/readme-images/rules.png)
 
@@ -77,11 +90,21 @@ The following colors were used on the website:
   
 ### Game Page
 
-* The game 
+* Wenn the page is opened, the users will be able to see which question they are answering, their score, the first question and 4 different answers.
+* The Quiz will randomly select the first 10 questions from the background list. 
 
 ![Game Page](assets/readme-images/game-page.png)
 
+* There is one opportunity to choose an answer. 
+* When the answer is selected,  buttons will change color, showing the users which answer is correct (green) and which is incorrect (red). 
+* An additional “Next” button will also appear, allowing you to go to the next question, which will disappear after clicking. 
+* By correct answering, the score will increase. 
+* The users also will see on which question they stopped.
+
 ![Answers](assets/readme-images/correct-incorrect-answer.png)
+
+* After beating the game, a window will appear with the result and the "Play Again" button. 
+* Pressing any button, the results will be updated.
 
 ![Score and Play Again](assets/readme-images/score-play-again.png)
 
@@ -130,10 +153,6 @@ The CSS validator results are below:
 
 [Back to top](<#contents>)
 
-## Browser Compatibility
-
-The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
-
 ## Responsiveness Test
 
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
@@ -144,9 +163,25 @@ The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The sit
 | Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 | Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
 
+
+
 ## Browser Compatibility
 
-The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
+The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
+
+## Testing User Stories
+* As a user I want to know the rules.
+    * On the **Rules Page** is a discription of the game and the rules involved. This can be accessed anytime with the **'Rules'** button.    
+   
+* As a user I want to know my score.
+    * There is a score above the question.
+    * Once the game is completed it displays the result.     
+   
+* As a user I want to know how many questions left.    
+    * Above the question there is a maximum amount of questions available and how many left.
+       
+* As a user I want to reset the game if I want another attempt.
+    * There are many ways to reset the game. Click the **Play Again** or **Play**.
 
 ## Known Bugs
 
