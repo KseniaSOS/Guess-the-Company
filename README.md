@@ -1,5 +1,5 @@
 # *Guess The Company*
-Guess the Company is a basic multiple choice Quiz. It is aimed at user who want a bit of fun and want to test their knowledge if they can identifying a brand by its slogan. User will find 30 questions.
+Guess the Company is a simple multiple choice quiz. It is intended for users who want to have some fun and want to test their knowledge if they can identify a brand by its slogan. The quiz has 30 different questions. For one game, the quiz selectively gives only 10 questions, so the user can play it several times.
 
 Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
 
@@ -31,17 +31,19 @@ Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
 ## Wireframes
 The wireframes were produced in [Balsamiq](https://balsamiq.com). There are frames for a full width display, tablets and a small mobile device.
 
-![Desktop wireframe image](assets/readme-images/wireframes_desktop.png)
+![Desktop wireframe image](assets/readme-images/wireframes-desktop.png)
 
-![Tablet wireframe image](assets/readme-images/wireframes_tablet.png)
+![Tablet wireframe image](assets/readme-images/wireframes-tablet.png)
 
-![Mobile wireframe image](assets/readme-images/wireframes_mobile.png)
+![Mobile wireframe image](assets/readme-images/wireframes-mobile.png)
 
 [Back to top](<#contents>)
+
 ## Site Structure
 Guess the Company is designed to be simple to use. The site consists of 3 main pages: [Homepage](index.html), [Rules Page](rules.html) and [Game Page](game.html). All pages of the website have the same body layout: Header and Footer.
 
 [Back to top](<#contents>)
+
 ## Design Choices
 * ### Typography
     * The main font is 'Quattrocento'. It is a fairly simple and clear font.
@@ -54,28 +56,43 @@ The following colors were used on the website:
 ![Colour Palate image](assets/readme-images/colors.png)
 
 [Back to top](<#contents>)
+
 # Features
 ## Existing Features
-* ### Homepage
-    * Navigation Menu
-    ![Home Page](assets/readme-images/home-page.png)
+### Homepage
+
+* Navigation Menu
+
+  ![Home Page](assets/readme-images/homepage.png)    
 
 [Back to top](<#contents>)
 
-* ### Rules Page
-    * How to PLay
+### Rules Page
+
+* How to PLay
     ![Rules Page](assets/readme-images/rules.png)
 
 [Back to top](<#contents>)
   
-* ### Game Page
-    * The game 
+### Game Page
+
+* The game 
+
     ![Game Page](assets/readme-images/game-page.png)
+
+    ![Answers](assets/readme-images/correct-incorrect-answer.png)
+
+    ![Score and Play Again](assets/readme-images/score-play-again.png)
 
 [Back to top](<#contents>)
 
 ## Future Features
-* 
+ An item for further versions could have:
+ *  Different scoring systems 
+ *  Different levels of difficulty
+ *  Track high scores and display these on a high scores page
+ *  Sound with an on/off toggle
+ *  Add a much larger number of words into the array
 
 [Back to top](<#contents>)
 
@@ -228,23 +245,34 @@ The method for cloning a project from GitHub is described below:
 
 
 [Back to top](<#contents>)
+
 # Credits
 * ## Content
    * Font - [Google Fonts](https://fonts.google.com/specimen/Quattrocento)
-   * Code - [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1779s)
-   * Code - [YouTube tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1356s)
-   * Code - [Love Math](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
+   * Code - [YouTube tutorial](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1779s)- inspiration for the quiz
+   * Code - [YouTube tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1356s)- inspiration for the quiz
+   * Code - [stack overflow](https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array) - shuffle array based on the Fisher-Yates algorithm (used modified code)   
    * Wireframes - [Balsamiq](https://balsamiq.com/wireframes/) 
    * Images - [Pikwizard](https://pikwizard.com/)
    * Images - [Pexels](https://www.pexels.com/)
+   * Questions - [Quiz questions](https://quiz-questions.uk/slogans-quiz//)
+   * Questions - [Sporcle](https://www.sporcle.com/games/fishdog/company_slogans_ALL/results)
+   
+
 
 * ## Media
 
     * Favicon - [Favicon Generator](https://favicon.io/favicon-converter/)
     * Images were compressed using [Tynypng](https://tinypng.com/)
+    * Responsive deisign image [Am I Responsive?](https://ui.dev/amiresponsive)
 
 
 [Back to top](<#contents>)
+
 # Acknowledgements
+
+I would like to acknowledge the [Code Institute](https://codeinstitute.net/) for the opportunity to work on such a project.
+It has been a challenging experience, but I have learned a lot.
+Special thanks goes to my family for their continued support and patience.
 
 [Back to top](<#contents>)
