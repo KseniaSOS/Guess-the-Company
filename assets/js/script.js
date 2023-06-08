@@ -13,9 +13,9 @@ let score = document.getElementById("score");
 let currentQuestionIndex = 0;
 let shuffledQuestions;
 
-/** shuffle array based on the Fisher-Yates algorithm */
+/** shuffle array based on the Fisher-Yates algorithm (used modified code) https://shorturl.at/hqSZ3*/
 function shuffle(array) {
-    let shuffledArray = array
+    let shuffledArray = array;
     for (let i = shuffledArray.length - 1; i > 0; i--) 
     {
         const j = Math.floor(Math.random() * (i + 1));
@@ -41,7 +41,7 @@ function startGame(){
     playAgainButton.style.display = "none";
 }
 
-//the code was taken from youtube channel: https://shorturl.at/hrIV9
+//the code was taken  and modified from youtube channel: https://shorturl.at/hrIV9
 /** Shows random questions with answers from the question list. Add event listeners to answers buttons */
 function showQuestion(questionIndex){
     resetState();
@@ -49,7 +49,7 @@ function showQuestion(questionIndex){
     let questionNo = questionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
-    setQuestionIdx(questionIndex)
+    setQuestionIdx(questionIndex);
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -122,8 +122,7 @@ function setScore(inputScore) {
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < numGameQuestions){
         showQuestion(currentQuestionIndex);
-        currentQuestionIndex++;
-        // handleNextButton();
+        currentQuestionIndex++;        
     } else{
         showScore();
     }
@@ -133,6 +132,5 @@ nextButton.addEventListener("click", ()=>{
 playAgainButton.addEventListener("click", ()=>{
     startGame();
 })
-
 
 startGame();
