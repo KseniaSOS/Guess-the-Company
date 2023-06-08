@@ -114,7 +114,7 @@ The CSS validator results are below:
 
 ## Browser Compatibility
 
-The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
+The Quiz Guess the Company can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
 
 ## Known Bugs
 
@@ -134,9 +134,15 @@ The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safar
     
     ![W3C Validator test result](assets/readme-images/game-page-w3.png)
 
+    * Java Script bugs on Homepage and Game page  
+
+    There was an Error in Inspects Console panale. It was easily fixed by removing script lint from html page, where script was not used.
+    
+    ![W3C Validator test result](assets/readme-images/js-bug-on-home-page.png)
     
 * ### Unfixed Bugs
-    
+
+    No unfixed bugs    
 
 ## Additional Testing
 
@@ -144,7 +150,17 @@ The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safar
 
 The site has also been tested by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools. Each page in the website has been analyzed the performance, best practices, accessibility and SEO.
 
-![Lighthouse test results](assets/readme-images/lighthouse-test.png)
+* Homepage
+
+![Lighthouse test results](assets/readme-images/lighthouse-test-hp.png)
+
+* Rules Page
+
+![Lighthouse test results](assets/readme-images/lighthouse-test-rp.png)
+
+* Game Page
+
+![Lighthouse test results](assets/readme-images/lighthouse-test-gp.png)
 
 [Back to top](<#contents>)
 
