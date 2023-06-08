@@ -112,7 +112,41 @@ The CSS validator results are below:
 
 [Back to top](<#contents>)
 
+## Browser Compatibility
 
+The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
+
+## Known Bugs
+
+* ### Solved Bugs
+
+   Bugs were found during the validation and a brief description is provided below:
+
+    * Homepage  
+
+     It was used a _section_ element without _headings_, which is not a good practice. It was suggested to change it to _div_, what was corrected accordingly.    
+    
+    ![W3C Validator test result](assets/readme-images/html-page-w3.png)
+  
+    * Game page  
+
+    There was an unclosed _div_ element on the page. It was easily fixed by adding one.   
+    
+    ![W3C Validator test result](assets/readme-images/game-page-w3.png)
+
+    
+* ### Unfixed Bugs
+    
+
+## Additional Testing
+
+### Lighthouse
+
+The site has also been tested by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools. Each page in the website has been analyzed the performance, best practices, accessibility and SEO.
+
+![Lighthouse test results](assets/readme-images/lighthouse-test.png)
+
+[Back to top](<#contents>)
 
 # Deployment
 ### **To deploy the project**
