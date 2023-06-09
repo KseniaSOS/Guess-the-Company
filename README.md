@@ -32,7 +32,7 @@ Visit the live website [*HERE*]( https://kseniasos.github.io/Guess-the-Company/)
 ## Testing User Stories
 * As a user I want to know the rules.    
 * As a user I want to know my score.     
-* As a user I want to know how many questions left.       
+* As a user I want to know how many questions I have completed.       
 * As a user I want to reset the game if I want another attempt.
    
 [Back to top](<#contents>)
@@ -62,7 +62,7 @@ There is a small game area on the pages including:
     * The main font is 'Quattrocento'. It is a fairly simple and clear font.
 * ### Colour Scheme
     *  Pastel colors were chosen for the color palette, against the darkened background image, they do not irritate or distract from the game itself. 
-    *  Red and green colors was used to visually highlight correct and incorrect answers.
+    *  Red and green colors were used to visually highlight correct and incorrect answers.
 
 The following colors were used on the website:
 
@@ -74,7 +74,7 @@ The following colors were used on the website:
 ## Existing Features
 ### Homepage
 
-* The home page has a simple and useble design. The users can see the introduction text with an image. From here they can use the navigation links at the top of the page to read the rules or to go straight to the game.
+* The home page has a simple and usable design. The users can see the introduction text with an image. From here they can use the navigation links at the top of the page to read the rules or to go straight to the game.
 
 ![Home Page](assets/readme-images/homepage.png)    
 
@@ -91,32 +91,32 @@ The following colors were used on the website:
 ### Game Page
 
 * Wenn the page is opened, the users will be able to see which question they are answering, their score, the first question and 4 different answers.
-* The Quiz will randomly select the first 10 questions from the background list. 
+* The Quiz will select the first 10 questions from the randomly shuffled background list. 
 
 ![Game Page](assets/readme-images/game-page.png)
 
 * There is one opportunity to choose an answer. 
 * When the answer is selected,  buttons will change color, showing the users which answer is correct (green) and which is incorrect (red). 
 * An additional “Next” button will also appear, allowing you to go to the next question, which will disappear after clicking. 
-* By correct answering, the score will increase. 
-* The users also will see on which question they stopped.
+* By answering correctly, the score will increase. 
+* The users will also see on which question they stopped.
 
 ![Answers](assets/readme-images/correct-incorrect-answer.png)
 
 * After beating the game, a window will appear with the result and the "Play Again" button. 
-* Pressing any button, the results will be updated.
+* Pressing the "Play Again" or "Play" buttons will directly bring the user into a new game whilst pressing "Home" and "Rules" buttons will reset the game and lead the user back to the contents of the respective sections.
 
 ![Score and Play Again](assets/readme-images/score-play-again.png)
 
 [Back to top](<#contents>)
 
 ## Future Features
- An item for further versions could have:
+ Potential new features could include:
  *  Different scoring systems 
  *  Different levels of difficulty
- *  Track high scores and display these on a high scores page
+ *  Tracking of high scores and displaying them on a high scores page
  *  Sound with an on/off toggle
- *  Add a much larger number of words into the array
+ *  A much larger number of questions in the array
 
 [Back to top](<#contents>)
 
@@ -171,14 +171,14 @@ The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The sit
 
 ## Testing User Stories
 * As a user I want to know the rules.
-    * On the **Rules Page** is a discription of the game and the rules involved. This can be accessed anytime with the **'Rules'** button.    
+    * On the **Rules Page** a discription of the game and the rules is available. This can be accessed anytime with the **'Rules'** button.    
    
 * As a user I want to know my score.
     * There is a score above the question.
     * Once the game is completed it displays the result.     
    
-* As a user I want to know how many questions left.    
-    * Above the question there is a maximum amount of questions available and how many left.
+* As a user I want to know how many questions I have completed.    
+    * Above the question there is a maximum amount of questions available and how many have been completed so far.
        
 * As a user I want to reset the game if I want another attempt.
     * There are many ways to reset the game. Click the **Play Again** or **Play**.
@@ -191,7 +191,7 @@ The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The sit
 
     * Homepage  
 
-     It was used a _section_ element without _headings_, which is not a good practice. It was suggested to change it to _div_, what was corrected accordingly.    
+     A _section_ element without _headings_ was used, which is not a good practice. It was suggested to change it to _div_. This was corrected accordingly.    
     
     ![W3C Validator test result](assets/readme-images/html-page-w3.png)
   
@@ -203,7 +203,7 @@ The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The sit
 
     * Java Script bugs on Homepage and Game page  
 
-    There was an Error in Inspects Console panale. It was easily fixed by removing script lint from html page, where script was not used.
+    There was an Error in Inspects Console panel. It was easily fixed by removing script lint from html page, where script was not used.
     
     ![W3C Validator test result](assets/readme-images/js-bug-on-home-page.png)
     
@@ -215,7 +215,7 @@ The Quiz  can work properly on Google Chrome, Microsoft Edge and Safari. The sit
 
 ### Lighthouse
 
-The site has also been tested by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools. Each page in the website has been analyzed the performance, best practices, accessibility and SEO.
+The site has also been tested by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools. Each page in the website has been analyzed in terms of performance, best practices, accessibility and SEO.
 
 * Homepage
 
@@ -234,7 +234,7 @@ The site has also been tested by [Google Lighthouse](https://developers.google.c
 # Deployment
 ### **To deploy the project**
 
-The site was deployed for GitHub pages. The steps to deploy this site are as follows:
+The site was deployed on GitHub pages. The steps to deploy this site are as follows:
 
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. Once in Settings, navigate to the **Pages** tab on the left hand side.
@@ -246,29 +246,6 @@ The site was deployed for GitHub pages. The steps to deploy this site are as fol
   The live link to the Github repository can be found here - <https://github.com/KseniaSOS/Guess-the-Company>
 
 >
-
-### **Forking the repository on GitHub**
-
-A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
-
-1. Log in to **GitHub** and locate the [repository](https://github.com/KseniaSOS/Guess-the-Company).
-2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-
-![GitHub forking process image](assets/readme-images/forking.png)
-
-### **Creating a local clone of this project**
-
-The method for cloning a project from GitHub is described below:
-
-1. Under the repository’s name, click on the **code** tab.
-2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
-   
-![Cloning the image](assets/readme-images/local-clone.png)
-
-1. In your IDE of choice, open **Git Bash**.
-2. Change the current working directory to the location where you want the cloned directory to be created.
-3. Type **git clone**, and then paste the URL copied from GitHub.
-4. Press **enter** and the local clone will be created.
 
 ### **Forking the repository on GitHub**
 
